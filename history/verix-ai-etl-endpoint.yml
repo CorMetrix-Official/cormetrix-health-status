@@ -1,0 +1,7 @@
+url: ${{ vars.ETL_SERVER }}
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2025-11-14T10:39:53.489Z
+startTime: 2025-11-14T10:39:53.487Z
+generator: Upptime <https://github.com/upptime/upptime>
