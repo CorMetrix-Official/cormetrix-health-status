@@ -1,25 +1,22 @@
 # Change these first
-owner: CorMetrix-Official # Your GitHub organization or username, where this repository lives
-repo: cormetrix-health-status # The name of this repository
+owner: CorMetrix-Official
+repo: cormetrix-health-status
 
 sites:
   - name: VerixAi Frontend Application
-    url: ${{ vars.FRONTEND_ENDPOINT }}
+    url: $FRONTEND_ENDPOINT
   - name: VerixAi Login Server Endpoint
-    url: ${{ vars.LOGIN_SERVER }}
+    url: $LOGIN_SERVER
   - name: VerixAi Backend Endpoint
-    url: ${{ vars.BACKEND_SERVER }}
+    url: $BACKEND_SERVER
   - name: VerixAi Chat Endpoint
-    url: ${{ vars.CHAT_SERVER }}
+    url: $CHAT_SERVER
   - name: VerixAi ETL Endpoint
-    url: ${{ vars.ETL_SERVER }}
+    url: $ETL_SERVER
 
 status-website:
-  # Add your custom domain name, or remove the cname line if you don't have a domain
-  # Uncomment the baseUrl line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
   baseUrl: /cormetrix-health-status
-  logoUrl: ${{ vars.FRONTEND_ENDPOINT }}/images/colored-logo.svg
+  logoUrl: $FRONTEND_ENDPOINT/images/colored-logo.svg
   name: Cormetrix Status
   introTitle: "Welcome to Cormetrix status page!"
   introMessage: "**Real-time** status from our [Cormetrix](https://cormetrix.com)."
@@ -27,7 +24,4 @@ status-website:
     - title: Status
       href: /
     - title: Login
-      href: ${{ vars.FRONTEND_ENDPOINT }}/login.html
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+      href: $FRONTEND_ENDPOINT/login.html
