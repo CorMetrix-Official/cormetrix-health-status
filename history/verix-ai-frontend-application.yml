@@ -1,7 +1,7 @@
 url: $FRONTEND_ENDPOINT
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-11-14T10:54:13.293Z
+status: up
+code: 200
+responseTime: 134
+lastUpdated: 2025-11-14T11:34:12.157Z
 startTime: 2025-11-14T10:39:45.592Z
 generator: Upptime <https://github.com/upptime/upptime>
