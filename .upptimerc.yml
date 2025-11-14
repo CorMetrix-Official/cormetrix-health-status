@@ -16,7 +16,7 @@ sites:
 
 status-website:
   baseUrl: /cormetrix-health-status
-  logoUrl: "${FRONTEND_ENDPOINT}/images/colored-logo.svg"
+  logoUrl: "https://verixai.cormetrix.com/images/colored-logo.svg"
   name: Cormetrix Status
   introTitle: "Welcome to Cormetrix status page!"
   introMessage: "**Real-time** status from our [Cormetrix](https://cormetrix.com)."
@@ -24,4 +24,4 @@ status-website:
     - title: Status
       href: /
     - title: Login
-      href: "${FRONTEND_ENDPOINT}/login.html"
+      href: "https://verixai.cormetrix.com/login.html"
