@@ -1,20 +1,102 @@
 [
   {
-    "name": "VerixAi Frontend",
-    "url": "https://verixai.cormetrix.com",
-    "icon": "https://icons.duckduckgo.com/ip3/verixai.cormetrix.com.ico",
-    "slug": "verix-ai-frontend",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 142,
-    "timeDay": 142,
-    "timeWeek": 142,
-    "timeMonth": 142,
-    "timeYear": 142,
-    "dailyMinutesDown": {}
+    "name": "VerixAi Frontend Application",
+    "url": "${{ vars.FRONTEND_ENDPOINT }}",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "verix-ai-frontend-application",
+    "status": "down",
+    "uptime": "4.07%",
+    "uptimeDay": "4.07%",
+    "uptimeWeek": "4.07%",
+    "uptimeMonth": "4.07%",
+    "uptimeYear": "4.07%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-11-14": 0
+    }
+  },
+  {
+    "name": "VerixAi Login Server Endpoint",
+    "url": "${{ vars.LOGIN_SERVER }}",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "verix-ai-login-server-endpoint",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-11-14": 0
+    }
+  },
+  {
+    "name": "VerixAi Backend Endpoint",
+    "url": "${{ vars.BACKEND_SERVER }}",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "verix-ai-backend-endpoint",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-11-14": 0
+    }
+  },
+  {
+    "name": "VerixAi Chat Endpoint",
+    "url": "${{ vars.CHAT_SERVER }}",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "verix-ai-chat-endpoint",
+    "status": "down",
+    "uptime": "3.97%",
+    "uptimeDay": "3.97%",
+    "uptimeWeek": "3.97%",
+    "uptimeMonth": "3.97%",
+    "uptimeYear": "3.97%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-11-14": 0
+    }
+  },
+  {
+    "name": "VerixAi ETL Endpoint",
+    "url": "${{ vars.ETL_SERVER }}",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "verix-ai-etl-endpoint",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-11-14": 0
+    }
   }
 ]
