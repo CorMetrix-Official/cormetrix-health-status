@@ -1,7 +1,7 @@
 url: $LOGIN_SERVER
-status: down
-code: 503
-responseTime: 311
-lastUpdated: 2026-01-22T09:01:35.451Z
+status: up
+code: 200
+responseTime: 375
+lastUpdated: 2026-01-22T09:16:43.700Z
 startTime: 2025-11-14T10:39:47.742Z
 generator: Upptime <https://github.com/upptime/upptime>
