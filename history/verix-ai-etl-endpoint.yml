@@ -1,7 +1,7 @@
 url: $ETL_SERVER
-status: up
-code: 200
-responseTime: 348
-lastUpdated: 2026-03-26T23:07:08.627Z
+status: down
+code: 503
+responseTime: 173
+lastUpdated: 2026-03-27T11:24:20.015Z
 startTime: 2025-11-14T10:39:53.487Z
 generator: Upptime <https://github.com/upptime/upptime>
